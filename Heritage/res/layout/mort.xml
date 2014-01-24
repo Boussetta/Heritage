@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/craneMort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mort" 
+        android:contentDescription="@string/crane"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/craneMort"
+        android:layout_marginTop="20dp" >
+
+        <RadioButton
+            android:id="@+id/personneMorte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/mort" />
+
+        <RadioButton
+            android:id="@+id/personneVivante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vivant" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/mortID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/craneMort"
+        android:text=""
+        android:textColor="@color/RED"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/dateDece"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioGroup1"
+        android:layout_alignParentRight="true"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dateDece"
+        android:layout_alignLeft="@+id/dateDece"
+        android:text="@string/Date"
+        android:textColor="@color/RED"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/mortBien"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/craneMort"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/mortBiens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mortBien"
+        android:layout_alignLeft="@+id/mortBien"
+        android:text="@string/mortBiens"
+        android:textColor="@color/RED"
+        android:textSize="20dp" />
+
+</RelativeLayout>

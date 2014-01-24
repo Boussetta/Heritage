@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/NULL" >
+
+    <ImageView
+        android:id="@+id/kubbetussahra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/kubbetussahra" 
+        android:contentDescription="@string/kubbetussahra" />
+
+    <ImageView
+        android:id="@+id/sebha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/sebha"
+        android:contentDescription="@string/sebha" />
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sebha"
+        android:layout_below="@+id/kubbetussahra"
+        android:layout_toLeftOf="@+id/kubbetussahra"
+        android:layout_toRightOf="@+id/sebha" >
+
+        <TextView
+            android:id="@+id/fichierAide"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/WHITE"
+            android:textSize="20dp" />
+
+    </ScrollView>
+
+</RelativeLayout>

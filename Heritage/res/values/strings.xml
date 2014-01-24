@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Heritage</string>
+    
+	<color name="WHITE">#FFFFFF</color>
+    <color name="NULL">#29000000</color>
+    <color name="RED">#FF0000</color>
+    
+    <string name="heritage">Heritage Islamique</string>
+    <string name="version">version 1.0</string>
+    <string name="buil_date">17 / 04 / 2012</string>
+    <string name="share">partager</string>
+    
+    <string name="remplir">Remplissez les formulaires: </string>
+    <string name="nom">Nom: </string>
+   	<string name="prenom">Prénom: </string>   	
+   	
+   	<string name="charger">Charger</string>
+   	<string name="retour">Retour</string>
+   	<string name="nomSauvegarde">Nom  sauvegarde:</string>
+   	<string name="effacerSauvegarde">effacer</string>
+   	
+   	<string name="OK">OK</string>
+   	<string name="Annuler">Annuler</string>
+   	<string name="Quitter">êtes - vous sure de vouloir quitter ?</string>
+   	
+   	<string name="Supprimer">Supprimer sauvegarde ?</string>
+   	<string name="Oui">Oui</string>
+   	<string name="Non">Non</string>
+   	
+   	<string name="mortBiens">Biens :</string>
+   	<string name="Date">Date :</string>
+   	<string name="mort">mort</string>   	
+   	<string name="vivant">vivant</string>
+   	
+   	<string name="model">Modèle</string>
+   	<string name="save">Enregistrer</string>
+   	<string name="verify">Vérifier</string>
+   	<string name="edit">Editer</string>
+   	<string name="undo">Annuler</string>
+   	<string name="redo">Répéter</string>
+   	<string name="clean">Effacer Tout</string>
+   	<string name="CalculerParts">Calculer les Parts</string>
+   	
+   	<string name="balance">sigle</string>
+   	<string name="arbre">nouveau</string>
+   	<string name="archive">archive</string>
+   	<string name="about">à propos</string>
+   	<string name="aide">aide</string>
+   	<string name="exit">quitter</string>
+   	<string name="squelette">squelette</string>
+   	<string name="crane">crane</string>
+   	<string name="sebha">sebha</string>
+   	<string name="kubbetussahra">kubbetussahra</string>
+   	
+   	<string name="editerMembre">Editer membre</string>
+   	<string name="enregistrerArbre">Enregistrer Arbre</string>
+   	
+   	<string name="notification">Héritage Islamique</string>
+   	
+   	<string name="help">Aide - Héritage Isalmique</string>
+</resources>
